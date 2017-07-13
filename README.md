@@ -12,7 +12,7 @@ Loosely based on [dscout/wkhtmltopdf-buildpack](https://github.com/dscout/wkhtml
 
     Example:
     ```bash
-    heroku config:set WKHTMLTOPDF_URL="http://download.gna.org/wkhtmltopdf/obsolete/linux/wkhtmltopdf-0.11.0_rc1-static-amd64.tar.bz2"
+    heroku config:set WKHTMLTOPDF_URL="https://downloads.wkhtmltopdf.org/obsolete/linux/wkhtmltopdf-0.11.0_rc1-static-amd64.tar.bz2"
     heroku config:set WKHTMLTOPDF_DOWNLOAD_SHA="b20c17284d4c03d81ac6ec3e251201da2b99830c9ac831281c8b5d841e7a6632"
     ```
 
